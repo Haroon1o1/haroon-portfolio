@@ -11,16 +11,16 @@ import { projects } from "../project-data";
 // }
 
 
-export default async function ProjectDetails({
+export default function ProjectDetails({
   params,
 }: {
-  params: { slug: string } | Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const { slug } = await params;
-
+  const { slug } = params;
 
   const project = projects.find((p) => p.slug === slug);
   if (!project) return notFound();
+
 
   const images = project.images;
 
