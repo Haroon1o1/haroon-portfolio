@@ -8,8 +8,9 @@ interface Props {
   };
 }
 
-export default  function ProjectDetails({ params }: Props) {
-  const { slug } =  params;
+
+export default async function ProjectDetails({ params }: Props) {
+  const { slug } = await params;
 
   const project = projects.find((p) => p.slug === slug);
   if (!project) return notFound();
