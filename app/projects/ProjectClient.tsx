@@ -43,7 +43,7 @@ export default function ProjectsClient() {
   );
 
   return (
-    <section className="max-w-3xl mx-auto px-4 py-6">
+<section className="w-full max-w-3xl px-4 py-6">
       <h1 className="mb-8 text-3xl font-bold">Projects</h1>
 
       <div className="mb-6 flex gap-4">
@@ -72,7 +72,7 @@ export default function ProjectsClient() {
       {filteredProjects.length > 0 ? (
         <div className="space-y-4">{filteredProjects.map(renderProjectCard)}</div>
       ) : (
-        <p className="text-neutral-600 dark:text-neutral-400">No projects found.</p>
+<p className="text-neutral-600 dark:text-neutral-400 text-left">No projects found.</p>
       )}
     </section>
   );
