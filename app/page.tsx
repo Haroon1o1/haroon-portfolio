@@ -1,61 +1,54 @@
 import Image from "next/image";
+import Link from "next/link";
 import { socialLinks } from "./lib/config";
 
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
         <Image
           src="/profile.png"
           alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
+          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 hover:grayscale-0"
           unoptimized
           width={160}
           height={160}
           priority
         />
       </a>
-      <h1 className="mb-8 text-2xl font-medium">Portfolio template!</h1>
+      <h1 className="mb-8 text-2xl font-medium">Meet Haroon Naeem!</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          I’m a Flutter developer passionate about building cross-platform mobile applications
+          with clean UI and scalable architecture. I have experience in deploying apps on both
+          Android and iOS using Flutter, integrated with REST APIs, Firebase, and OpenVPN.
         </p>
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          Currently working at <strong>TheCorise</strong> as a Flutter Developer, I’ve developed
+          and deployed production apps such as <em>Qalb-e-Saleem</em>, <em>Cloud VPN</em>, and{" "}
+          <em>Car Care</em> on the Play Store and App Store.
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          My Final Year Project <strong>Vessel</strong> was a service provider app with Google
+          Maps tracking, real-time chat, live bidding, emergency contact, and a feedback system.
         </p>
+
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
+          I specialize in:
         </p>
+        <ul>
+          <li>Flutter, GetX, Provider, Firebase (Auth, DB, Storage)</li>
+          <li>FastAPI, Maps integration, OpenVPN, REST API</li>
+          <li>UI/UX design, Deployment (Play Store & App Store)</li>
+        </ul>
         <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
+          Let’s connect:
+          {" "}
+          <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">GitHub</a>,
+          {" "}
+          <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>,
+          {" "}
+          <a href={socialLinks.whatsapp} target="_blank" rel="noopener noreferrer">Whatsapp</a>
         </p>
       </div>
     </section>
