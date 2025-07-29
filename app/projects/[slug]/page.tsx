@@ -9,7 +9,7 @@ interface Props {
 }
 
 export default async function ProjectDetails({ params }: Props) {
-  const { slug } = await params;
+  const { slug } =  params;
 
   const project = projects.find((p) => p.slug === slug);
   if (!project) return notFound();
