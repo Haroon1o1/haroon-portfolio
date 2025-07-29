@@ -2,15 +2,22 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { projects } from "../project-data";
 
-interface Props {
-  params: {
-    slug: string;
-  };
-}
+// interface Params {
+//   slug: string;
+// }
+
+// interface Props<T = Params> {
+//   params: T | Promise<T>;  // params can be either T or Promise<T>
+// }
 
 
-export default async function ProjectDetails({ params }: Props) {
+export default async function ProjectDetails({
+  params,
+}: {
+  params: { slug: string } | Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
+
 
   const project = projects.find((p) => p.slug === slug);
   if (!project) return notFound();
