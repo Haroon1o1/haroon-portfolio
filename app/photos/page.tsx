@@ -11,17 +11,17 @@ export default function Photos() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium">Photos</h1>
-      <ImageGrid
-        columns={3}
-        images={[
-          { src: "/photos/photo1.png", alt: "Fitxol" },
-          { src: "/photos/photo2.png", alt: "Qalb e Saleem" },
-          { src: "/photos/photo3.png", alt: "HearMate" },
-         
-        ]}
-      />
+    <ImageGrid
+  columns={3}
+  images={[
+    { src: "/photos/photo1.png", alt: "Fitxol", href: "https://haroon-portfolio-final.vercel.app/projects/fitxol" },
+    { src: "/photos/photo2.png", alt: "Qalb e Saleem", href: "https://haroon-portfolio-final.vercel.app/projects/qalb-e-saleem" },
+    { src: "/photos/photo3.png", alt: "HearMate", href: "https://haroon-portfolio-final.vercel.app/projects/Hearmate" },
+  ]}
+/>
 
-      {/* <ImageGrid
+
+      {/* { <ImageGrid
         columns={2}
         images={[
          { src: "/photos/photo1.png", alt: "Fitxol" },
@@ -29,7 +29,7 @@ export default function Photos() {
           { src: "/photos/photo3.png", alt: "HearMate" },
 
         ]}
-      /> */}
+      /> }   */}
 
       {/* <ImageGrid
         columns={4}
