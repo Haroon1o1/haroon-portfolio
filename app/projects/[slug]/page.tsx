@@ -22,7 +22,7 @@ export default async function ProjectDetails({
       <p className="text-gray-500 mt-3">{project.year}</p>
 
       {/* Banner Image */}
-      <div className="mt-8 w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
+      <div className=" mt-4 w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
         <Image
           src={project.banner}
           alt={`${project.title} banner`}
@@ -40,22 +40,28 @@ export default async function ProjectDetails({
 
       {/* Project Images Section */}
       <section className="mt-12 max-w-5xl mx-auto space-y-16">
-        {images?.slice(0, 3).map((img, idx) => (
-          <div
-            key={idx}
-            className={`flex flex-col ${
-              idx % 2 === 1 ? "md:flex-row-reverse" : "md:flex-row"
-            } items-start gap-8 w-full`}
-          >
-            <div className="flex-shrink-0 w-full md:w-[400px] rounded-lg overflow-hidden shadow-md">
-              <Image
-                src={img.src}
-                alt={img.label}
-                width={400}
-                height={400}
-                className="object-cover w-full h-auto rounded-lg"
-              />
-            </div>
+        {images?.slice(0, images?.length).map((img, idx) => (
+    <div
+  key={idx}
+  className={`flex flex-col items-center md:items-start gap-8 w-full ${
+    idx % 2 === 1 && img.label !== "" ? "md:flex-row-reverse" : "md:flex-row"
+  }`}
+>
+  <div
+    className={`w-full flex justify-center md:justify-start ${
+      img.label === "" ? "md:w-[1024px]" : "md:w-[233px]"
+    } rounded-lg overflow-hidden shadow-md`}
+  >
+    <Image
+      src={img.src}
+      alt={img.label}
+      width={img.label === "" ? 1024 : 233}
+      height={602}
+      className="object-contain rounded-lg"
+    />
+  </div>
+
+
             <div className="flex-grow text-left">
              <h2 className="text-2xl font-semibold mb-3 text-center md:text-left">{img.label}</h2>
 

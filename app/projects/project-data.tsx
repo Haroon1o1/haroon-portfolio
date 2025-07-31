@@ -31,12 +31,23 @@
           description: "Users can sign in using Google or phone authentication.",
         },
         {
+          src: "/flutter-apps/fitxol/image2.png",
+          label: "Home Dashboard",
+          description: "A personalized home with gym listings, featured sessions, and progress tracking.",
+        },
+   
+        {
           src: "/flutter-apps/fitxol/image1.png",
+          label: "Login Screen",
+          description: "Users can sign in using Google or phone authentication.",
+        },
+        {
+          src: "/flutter-apps/fitxol/image2.png",
           label: "Home Dashboard",
           description: "A personalized home with gym listings, featured sessions, and progress tracking.",
         },
         {
-          src: "/flutter-apps/fitxol/image1.png",
+          src: "/flutter-apps/fitxol/image3.png",
           label: "Trainer Booking",
           description: "Schedule sessions, view trainer profiles, and confirm using in-app calendar.",
         },

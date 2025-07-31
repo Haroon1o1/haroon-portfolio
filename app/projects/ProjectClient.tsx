@@ -16,17 +16,20 @@ export default function ProjectsClient() {
       href={`/projects/${project.slug}`}
       className="cursor-pointer block border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 hover:shadow-md hover:bg-neutral-50 dark:hover:bg-neutral-800 transition"
     >
-      <div className="flex items-center gap-4">
+      <div className="flex flex-col sm:flex-row items-center gap-4 text-left">
+
         {/* Logo Image */}
-        <div className="relative w-20 h-20 rounded overflow-hidden flex-shrink-0">
-          <Image
-            src={project.logo}
-            alt={`${project.title} logo`}
-            width={80}
-            height={80}
-            className="object-contain"
-          />
-        </div>
+      <div className="w-full flex justify-center">
+  <Image
+    src="/path/to/image.png"
+    alt="Login screen"
+    width={300}
+    height={600}
+    className="object-contain"
+  />
+</div>
+
+
 
         {/* Text Content */}
         <div className="flex-1 min-w-0">
