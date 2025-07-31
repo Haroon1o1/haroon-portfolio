@@ -1,11 +1,12 @@
 export const metaData = {
-  baseUrl: "https://nextfolio-template.vercel.app/",
+  baseUrl: "https://haroon-portfolio-final.vercel.app/", // Replace with your actual deployed URL
   title: "Haroon's Portfolio",
-  name: "Sirius",
-  ogImage: "/opengraph-image.png",
+  name: "Haroon",
+  ogImage: "/og-haroon.png", // Ensure this image exists in the /public folder
   description:
-    "A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.",
+    "Flutter Developer | Firebase | API Integration | Google Maps | Building efficient and elegant mobile apps.",
 };
+
 
 export const socialLinks = {
   twitter: "https://x.com/1tssirius",
