@@ -38,16 +38,16 @@ export interface Project {
       images: [
         {
           src: "/flutter-apps/fitxol/image1.png",
-        
+
         },
         {
           src: "/flutter-apps/fitxol/image2.png",
-        
+
         },
-   
+
         {
           src: "/flutter-apps/fitxol/image3.png",
-         
+
         },
       ],
       techStack: [
@@ -101,7 +101,7 @@ features: [
       src: "/flutter-apps/qalb/image3.png",
 
     },
-   
+
   ],
 
   techStack: [
@@ -116,7 +116,7 @@ features: [
 
 
 
- 
+
   {
 features: [
   "Sound Processing to amplifies surrounding sounds",
@@ -158,7 +158,7 @@ features: [
       src: "/flutter-apps/hearmate/image5.png",
 
     },
-   
+
   ],
 
   techStack: [
@@ -169,6 +169,53 @@ features: [
     { name: "Sound Management", color: "#C25763FF" },
     { name: "PDF Generation", color: "#57C263FF" },
   ],
-}
+    },
+
+
+
+
+   {
+features: [
+  "Role based Authentication",
+  "Inventory  system",
+  "Stage management with Getx",
+  "Ai-based Face KYC integration",
+  "Order management & payment gateway",
+],
+
+  slug: "RentAnything",
+  title: "RentAnything – Rent out your stuff now",
+  year: "Jan 2025 - March 2025",
+  type: "flutter",
+  logo: "/flutter-apps/rent/logo.png",
+  description:
+    "RentAnything is a user-friendly platform that allows people to easily rent out items they no longer use and earn extra income. It comes with role-based authentication for secure access, a complete inventory system to manage listings, and efficient stage management with GetX for smooth app performance. The platform also integrates AI-powered Face KYC for identity verification, along with order management and a payment gateway to ensure safe and seamless transactions for both owners and renters.",
+
+  banner: "/flutter-apps/rent/banner.png",
+
+  smallDescription:
+    "RentAnything is a plateform to rent out your stuff easily that you dont need and earn money.",
+
+  images: [
+    {
+      src: "/flutter-apps/rent/image1.png",
+     },
+    {
+      src: "/flutter-apps/rent/image2.png",},
+    {
+      src: "/flutter-apps/rent/image3.png",
+
+    },
+
+  ],
+
+  techStack: [
+    { name: "Flutter", color: "#02569B" },
+    { name: "Firebase", color: "#FF6F00" },
+    { name: "Provider State-management", color: "#7E57C2" },
+    { name: "Fast API", color: "#0c16a2ff" },
+    { name: "Stripe Payment gateway", color: "#15be61ff" },
+  ],
+},
 
   ];
