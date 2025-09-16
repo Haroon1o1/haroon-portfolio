@@ -14,17 +14,19 @@ export const ImageGrid: React.FC<ImageGridProps> = ({
   images,
   columns = 3,
 }) => {
-  const gridClass = {
-    2: "grid-cols-2 sm:grid-cols-2",
-    3: "grid-cols-2 sm:grid-cols-3",
-    4: "grid-cols-2 sm:grid-cols-4",
-  }[columns];
+ const gridClass = {
+  2: "grid-cols-1 sm:grid-cols-2",
+  3: "grid-cols-1 sm:grid-cols-3",
+  4: "grid-cols-1 sm:grid-cols-4",
+}[columns];
+
 
   return (
     <section>
       <div className={`grid ${gridClass} gap-4 my-8`}>
         {images.map((image, index) => (
-        <div key={index} className="relative w-full h-80">
+       <div key={index} className="relative w-full h-60 sm:h-80">
+
 
             {image.href ? (
               <a
