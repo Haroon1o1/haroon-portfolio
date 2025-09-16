@@ -20,6 +20,7 @@ export default function Photos() {
     { src: "/photos/4.png", alt: "HearMate", href: "" },
     { src: "/photos/5.png", alt: "HearMate", href: "" },
     { src: "/photos/6.png", alt: "HearMate", href: "" },
+    { src: "/photos/7.png", alt: "HearMate", href: "" },
   ]}
 />
 
