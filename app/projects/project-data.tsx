@@ -31,7 +31,7 @@ export interface Project {
       title: "Fitxol – Health Tracking application",
       year: "Feb 2025 - June 2025", // string now
       type: "flutter",
-      logo: "/flutter-apps/fitxol/logo.png", // ✅ your app logo
+      logo: "/flutter-apps/fitxol/banner.png", // ✅ your app logo
       description: "Fitxol is an innovative health tracking IoT application designed to provide real-time monitoring of your height and weight. It offers insightful, graph-based analysis to help you understand your progress over time. With secure user authentication, seamless profile management, and a personalized goal-setting tracker, Fitxol empowers you to take control of your health journey with ease and confidence.",
       banner: "/flutter-apps/fitxol/banner.png",
      smallDescription: "Fitxol offers real-time height and weight tracking with smart analysis, secure profiles, and goal-setting for better health management",
@@ -82,7 +82,7 @@ features: [
   title: "Qalb-e-Saleem – Arabic Audiobook",
   year: "Sep 2024 - Dec 2024",
   type: "flutter",
-  logo: "/flutter-apps/qalb/logo.png",
+  logo: "/flutter-apps/qalb/banner.png",
   description:
     "Qalb-e-Saleem is a sophisticated Arabic digital book application designed to present data visually with an intuitive and user-friendly interface. It seamlessly integrates audio and video playback, allowing users to engage deeply with the content. The app efficiently manages PDFs and other digital resources through a robust Firebase database backend, ensuring fast access and smooth performance. With a focus on optimization, Qalb-e-Saleem offers a beautifully crafted user interface that enhances readability and navigation, making the experience immersive and accessible for users of all ages.",
 
@@ -131,7 +131,7 @@ features: [
   title: "HearMate – An hearing aid application",
   year: "Jan 2025 - May 2025",
   type: "flutter",
-  logo: "/flutter-apps/hearmate/icon.png",
+  logo: "/flutter-apps/hearmate/banner.png",
   description:
     "This advanced hearing application is designed to enhance auditory health through real-time sound processing and medical-grade audiometry tests. It offers a user-friendly interface, allowing users to perform accurate hearing tests and receive graph-based results for both left and right ears. After completing the test, users can download a detailed PDF report of their results. The app also includes secure user authentication and profile management, ensuring a personalized and streamlined experience.",
 
@@ -187,7 +187,7 @@ features: [
   title: "RentAnything – Rent out your stuff now",
   year: "Jan 2025 - March 2025",
   type: "flutter",
-  logo: "/flutter-apps/rent/logo.png",
+  logo: "/flutter-apps/rent/banner.png",
   description:
     "RentAnything is a user-friendly platform that allows people to easily rent out items they no longer use and earn extra income. It comes with role-based authentication for secure access, a complete inventory system to manage listings, and efficient stage management with GetX for smooth app performance. The platform also integrates AI-powered Face KYC for identity verification, along with order management and a payment gateway to ensure safe and seamless transactions for both owners and renters.",
 
@@ -232,7 +232,7 @@ features: [
   "title": "Cooksy – Homemade meals from local chefs",
   "year": "Nov 2024 - Jan 2025",
   "type": "flutter",
-  "logo": "/flutter-apps/cooksy/logo.png",
+  "logo": "/flutter-apps/cooksy/banner.png",
   "description":
     "Cooksy connects you with local home chefs, making it easy to order fresh, homemade meals and track your delivery in real time. The app comes with role-based authentication, real-time order management, and nearby chef discovery to make finding authentic meals convenient. Users can filter by categories like vegetarian, non-vegetarian, and discounts, while secure payments ensure a smooth and reliable experience.",
 
@@ -273,7 +273,7 @@ features: [
   "title": "Dwella – Real Estate Application",
   "year": "Jan 2025 - March 2025",
   "type": "flutter",
-  "logo": "/flutter-apps/Dwella/logo.png",
+  "logo": "/flutter-apps/Dwella/banner.png",
   "description":
     "Dwella is a modern real estate application built with Flutter, designed to help users discover, explore, and book properties seamlessly. With an intuitive interface, users can browse property details, view high-quality photos, and book their dream homes with ease. Dwella also offers powerful search and filtering options, account management, and a smooth booking process to make house-hunting stress-free.",
 
@@ -314,7 +314,7 @@ features: [
   "title": "CinemaPlex – Ticket Booking Application",
   "year": "Dec 2024 - Feb 2025",
   "type": "flutter",
-  "logo": "/flutter-apps/Cinema/logo.png",
+  "logo": "/flutter-apps/Cinema/banner.png",
   "description":
     "CinemaPlex is a ticket booking application developed in Flutter for cinemas to enhance user experience and ticket management. The app allows users to explore movies, view details such as ratings, genres, and durations, and conveniently select showtimes and seats. With integrated secure payment options and smooth ticket management, CinemaPlex provides a modern and efficient cinema booking experience.",
 
@@ -354,7 +354,7 @@ features: [
   "title": "Volt – Electric Bikes Tracking Application",
   "year": "Feb 2025 - April 2025",
   "type": "flutter",
-  "logo": "/flutter-apps/volt/logo.png",
+  "logo": "/flutter-apps/volt/banner.png",
   "description":
     "Volt is a Flutter-based application designed to track electric bikes in the city. It allows users to discover and unlock nearby e-bikes, manage parking areas, and monitor zones with real-time movement updates. With features like secure payments, lock/unlock functionality, and ride history, Volt provides a seamless and modern solution for urban micro-mobility management.",
 
@@ -393,7 +393,7 @@ features: [
   "title": "PerfectFit – AI based Virtual Try-On Application",
   "year": "March 2025 - May 2025",
   "type": "flutter",
-  "logo": "/flutter-apps/perfectFit/logo.png",
+  "logo": "/flutter-apps/perfectFit/banner.png",
   "description":
     "PerfectFit is a Flutter-based application integrated with AI models to allow customers to virtually try on clothes before purchasing. Along with AI-powered try-on, it includes full e-commerce functionality such as product catalog, cart, secure checkout, and profile management. PerfectFit enhances online shopping by giving users a realistic preview of how clothes will look on them, improving confidence in online purchases.",
 

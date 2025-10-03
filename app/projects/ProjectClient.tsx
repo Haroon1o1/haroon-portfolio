@@ -10,69 +10,78 @@ export default function ProjectsClient() {
 
   const filteredProjects = projects.filter((p) => p.type === selectedType);
 
-  const renderProjectCard = (project: typeof projects[0]) => (
-    <Link
-      key={project.slug}
-      href={`/projects/${project.slug}`}
-      className="cursor-pointer block border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 hover:shadow-md hover:bg-neutral-50 dark:hover:bg-neutral-800 transition"
-    >
-      <div className="flex items-center gap-4">
-        {/* Logo Image */}
-        <div className="relative w-20 h-20 rounded overflow-hidden flex-shrink-0">
-          <Image
-            src={project.logo}
-            alt={`${project.title} logo`}
-            width={80}
-            height={80}
-            className="object-contain"
-          />
-        </div>
+const renderProjectCard = (project: typeof projects[0]) => (
+  <Link
+    key={project.slug}
+    href={`/projects/${project.slug}`}
+    className="group cursor-pointer block border border-neutral-200 dark:border-neutral-700 rounded-lg overflow-hidden transition transform hover:scale-[1.02] hover:shadow-lg"
+  >
+    {/* Banner Image */}
+    <div className="relative w-full aspect-video bg-neutral-100 dark:bg-neutral-800">
+      <Image
+        src={project.logo} // fallback if you keep both
+        alt={`${project.title} banner`}
+        fill
+        className="object-cover"
+      />
+    </div>
 
-        {/* Text Content */}
-        <div className="flex-1 min-w-0">
-          <h2 className="text-lg font-semibold text-black dark:text-white">
-            {project.title}
-          </h2>
-          <p className="text-neutral-700 dark:text-neutral-300 mt-1 text-sm line-clamp-2">
-            {project.smallDescription}
-          </p>
-          <span className="text-sm text-neutral-500 mt-1 block">{project.year}</span>
-        </div>
-      </div>
-    </Link>
-  );
+    {/* Card Content */}
+    <div className="p-4">
+      <h2 className="text-lg font-semibold text-black dark:text-white mb-1">
+        {project.title}
+      </h2>
+      <p className="text-neutral-700 dark:text-neutral-300 text-sm line-clamp-2 mb-2">
+        {project.smallDescription}
+      </p>
+      <span className="inline-block text-xs font-medium px-2 py-1 rounded-full bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300">
+        {project.year}
+      </span>
+    </div>
+  </Link>
+);
+
 
   return (
-<section className="w-full max-w-3xl px-4 py-6">
-      <h1 className="mb-8 text-3xl font-bold">Projects</h1>
+    <section className="w-full max-w-5xl mx-auto px-6 py-10">
+      <h1 className="mb-2 text-3xl font-bold">Projects</h1>
+      <p className="text-neutral-600 dark:text-neutral-400 mb-8">
+        A collection of apps and automations I’ve built.
+      </p>
 
-      <div className="mb-6 flex gap-4">
+      {/* Filter Buttons */}
+      <div className="mb-8 flex gap-3">
         <button
           onClick={() => setSelectedType("flutter")}
-          className={`cursor-pointer px-4 py-2 rounded ${
+          className={`px-4 py-2 rounded-md text-sm font-medium transition ${
             selectedType === "flutter"
               ? "bg-lime-600 text-white"
-              : "bg-neutral-200 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-300"
+              : "bg-neutral-200 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-600"
           }`}
         >
           Flutter
         </button>
         <button
           onClick={() => setSelectedType("n8n")}
-          className={`cursor-pointer px-4 py-2 rounded ${
+          className={`px-4 py-2 rounded-md text-sm font-medium transition ${
             selectedType === "n8n"
               ? "bg-purple-600 text-white"
-              : "bg-neutral-200 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-300"
+              : "bg-neutral-200 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-600"
           }`}
         >
           n8n
         </button>
       </div>
 
+      {/* Projects Grid */}
       {filteredProjects.length > 0 ? (
-        <div className="space-y-4">{filteredProjects.map(renderProjectCard)}</div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {filteredProjects.map(renderProjectCard)}
+        </div>
       ) : (
-<p className="text-neutral-600 dark:text-neutral-400 text-left">No projects found.</p>
+        <p className="text-neutral-600 dark:text-neutral-400 text-left">
+          No projects found.
+        </p>
       )}
     </section>
   );
