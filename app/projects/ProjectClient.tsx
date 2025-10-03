@@ -43,7 +43,7 @@ const renderProjectCard = (project: typeof projects[0]) => (
 
 
   return (
-    <section className="w-full max-w-5xl mx-auto px-6 py-10">
+<section className="w-full max-w-6xl mx-auto py-10">
       <h1 className="mb-2 text-3xl font-bold">Projects</h1>
       <p className="text-neutral-600 dark:text-neutral-400 mb-8">
         A collection of apps and automations I’ve built.
