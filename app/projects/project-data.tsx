@@ -273,22 +273,22 @@ features: [
   "title": "Dwella – Real Estate Application",
   "year": "Jan 2025 - March 2025",
   "type": "flutter",
-  "logo": "/flutter-apps/dwella/logo.png",
+  "logo": "/flutter-apps/Dwella/logo.png",
   "description":
     "Dwella is a modern real estate application built with Flutter, designed to help users discover, explore, and book properties seamlessly. With an intuitive interface, users can browse property details, view high-quality photos, and book their dream homes with ease. Dwella also offers powerful search and filtering options, account management, and a smooth booking process to make house-hunting stress-free.",
 
-  "banner": "/flutter-apps/dwella/banner.png",
+  "banner": "/flutter-apps/Dwella/banner.png",
 
   "smallDescription":
     "Dwella is a real estate app that makes it simple to discover, explore, and book properties seamlessly.",
 
   "images": [
-    { "src": "/flutter-apps/dwella/image1.png" },
-    { "src": "/flutter-apps/dwella/image2.png" },
-    { "src": "/flutter-apps/dwella/image3.png" },
-    { "src": "/flutter-apps/dwella/image4.png" },
-    { "src": "/flutter-apps/dwella/image5.png" },
-    { "src": "/flutter-apps/dwella/image6.png" },
+    { "src": "/flutter-apps/Dwella/image1.png" },
+    { "src": "/flutter-apps/Dwella/image2.png" },
+    { "src": "/flutter-apps/Dwella/image3.png" },
+    { "src": "/flutter-apps/Dwella/image4.png" },
+    { "src": "/flutter-apps/Dwella/image5.png" },
+    { "src": "/flutter-apps/Dwella/image6.png" },
   ],
 
   "techStack": [
@@ -314,21 +314,21 @@ features: [
   "title": "CinemaPlex – Ticket Booking Application",
   "year": "Dec 2024 - Feb 2025",
   "type": "flutter",
-  "logo": "/flutter-apps/cinemaplex/logo.png",
+  "logo": "/flutter-apps/Cinema/logo.png",
   "description":
     "CinemaPlex is a ticket booking application developed in Flutter for cinemas to enhance user experience and ticket management. The app allows users to explore movies, view details such as ratings, genres, and durations, and conveniently select showtimes and seats. With integrated secure payment options and smooth ticket management, CinemaPlex provides a modern and efficient cinema booking experience.",
 
-  "banner": "/flutter-apps/cinemaplex/banner.png",
+  "banner": "/flutter-apps/Cinema/banner.png",
 
   "smallDescription":
     "CinemaPlex is a modern ticket booking app for cinemas with seat selection, showtime booking, and integrated payments.",
 
   "images": [
-    { "src": "/flutter-apps/cinemaplex/image1.png" },
-    { "src": "/flutter-apps/cinemaplex/image2.png" },
-    { "src": "/flutter-apps/cinemaplex/image3.png" },
-    { "src": "/flutter-apps/cinemaplex/image4.png" },
-    { "src": "/flutter-apps/cinemaplex/image5.png" },
+    { "src": "/flutter-apps/Cinema/image1.png" },
+    { "src": "/flutter-apps/Cinema/image2.png" },
+    { "src": "/flutter-apps/Cinema/image3.png" },
+    { "src": "/flutter-apps/Cinema/image4.png" },
+    { "src": "/flutter-apps/Cinema/image5.png" },
   ],
 
   "techStack": [
@@ -393,21 +393,21 @@ features: [
   "title": "PerfectFit – AI based Virtual Try-On Application",
   "year": "March 2025 - May 2025",
   "type": "flutter",
-  "logo": "/flutter-apps/perfectfit/logo.png",
+  "logo": "/flutter-apps/perfectFit/logo.png",
   "description":
     "PerfectFit is a Flutter-based application integrated with AI models to allow customers to virtually try on clothes before purchasing. Along with AI-powered try-on, it includes full e-commerce functionality such as product catalog, cart, secure checkout, and profile management. PerfectFit enhances online shopping by giving users a realistic preview of how clothes will look on them, improving confidence in online purchases.",
 
-  "banner": "/flutter-apps/perfectfit/banner.png",
+  "banner": "/flutter-apps/perfectFit/banner.png",
 
   "smallDescription":
     "PerfectFit lets users virtually try clothes using AI before buying, combined with full e-commerce shopping features.",
 
   "images": [
-    { "src": "/flutter-apps/perfectfit/image1.png" },
-    { "src": "/flutter-apps/perfectfit/image2.png" },
-    { "src": "/flutter-apps/perfectfit/image3.png" },
-    { "src": "/flutter-apps/perfectfit/image4.png" },
-    { "src": "/flutter-apps/perfectfit/image5.png" },
+    { "src": "/flutter-apps/perfectFit/image1.png" },
+    { "src": "/flutter-apps/perfectFit/image2.png" },
+    { "src": "/flutter-apps/perfectFit/image3.png" },
+    { "src": "/flutter-apps/perfectFit/image4.png" },
+    { "src": "/flutter-apps/perfectFit/image5.png" },
   ],
 
   "techStack": [
