@@ -218,4 +218,210 @@ features: [
   ],
 },
 
+
+   {
+  "features": [
+    "Role based Authentication",
+    "Nearby chefs discovery",
+    "Real-time order tracking",
+    "Order management & payment gateway",
+    "Category based filtering (Veg/Non-Veg/Discounts)"
+  ],
+
+  "slug": "Cooksy",
+  "title": "Cooksy – Homemade meals from local chefs",
+  "year": "Nov 2024 - Jan 2025",
+  "type": "flutter",
+  "logo": "/flutter-apps/cooksy/logo.png",
+  "description":
+    "Cooksy connects you with local home chefs, making it easy to order fresh, homemade meals and track your delivery in real time. The app comes with role-based authentication, real-time order management, and nearby chef discovery to make finding authentic meals convenient. Users can filter by categories like vegetarian, non-vegetarian, and discounts, while secure payments ensure a smooth and reliable experience.",
+
+  "banner": "/flutter-apps/cooksy/banner.png",
+
+  "smallDescription":
+    "Cooksy is a platform to order homemade meals from local chefs with real-time delivery tracking.",
+
+  "images": [
+    { "src": "/flutter-apps/cooksy/image1.png" },
+    { "src": "/flutter-apps/cooksy/image2.png" },
+    { "src": "/flutter-apps/cooksy/image3.png" },
+    { "src": "/flutter-apps/cooksy/image4.png" },
+    { "src": "/flutter-apps/cooksy/image5.png" },
+    { "src": "/flutter-apps/cooksy/image6.png" },
+  ],
+
+  "techStack": [
+    { "name": "Flutter", "color": "#02569B" },
+    { "name": "Firebase", "color": "#FF6F00" },
+    { "name": "GetX State-management", "color": "#7E57C2" },
+    { "name": "Google Maps API", "color": "#4285F4" },
+    { "name": "Stripe Payment Gateway", "color": "#15be61ff" }
+  ]
+    },
+
+   {
+  "features": [
+    "Role based Authentication",
+    "Property discovery & search",
+    "Nearby property listings",
+    "Property booking system",
+    "Profile & account management",
+    "Photo gallery for properties"
+  ],
+
+  "slug": "Dwella",
+  "title": "Dwella – Real Estate Application",
+  "year": "Jan 2025 - March 2025",
+  "type": "flutter",
+  "logo": "/flutter-apps/dwella/logo.png",
+  "description":
+    "Dwella is a modern real estate application built with Flutter, designed to help users discover, explore, and book properties seamlessly. With an intuitive interface, users can browse property details, view high-quality photos, and book their dream homes with ease. Dwella also offers powerful search and filtering options, account management, and a smooth booking process to make house-hunting stress-free.",
+
+  "banner": "/flutter-apps/dwella/banner.png",
+
+  "smallDescription":
+    "Dwella is a real estate app that makes it simple to discover, explore, and book properties seamlessly.",
+
+  "images": [
+    { "src": "/flutter-apps/dwella/image1.png" },
+    { "src": "/flutter-apps/dwella/image2.png" },
+    { "src": "/flutter-apps/dwella/image3.png" },
+    { "src": "/flutter-apps/dwella/image4.png" },
+    { "src": "/flutter-apps/dwella/image5.png" },
+    { "src": "/flutter-apps/dwella/image6.png" },
+  ],
+
+  "techStack": [
+    { "name": "Flutter", "color": "#02569B" },
+    { "name": "Firebase", "color": "#FF6F00" },
+    { "name": "GetX State-management", "color": "#7E57C2" },
+    { "name": "Google Maps API", "color": "#4285F4" },
+    { "name": "Cloud Firestore", "color": "#039BE5" }
+  ]
+    },
+
+   {
+  "features": [
+    "Role based Authentication",
+    "Movie discovery & details",
+    "Seat selection system",
+    "Showtime & format selection (2D/3D)",
+    "Ticket booking & management",
+    "Integrated payment gateway"
+  ],
+
+  "slug": "CinemaPlex",
+  "title": "CinemaPlex – Ticket Booking Application",
+  "year": "Dec 2024 - Feb 2025",
+  "type": "flutter",
+  "logo": "/flutter-apps/cinemaplex/logo.png",
+  "description":
+    "CinemaPlex is a ticket booking application developed in Flutter for cinemas to enhance user experience and ticket management. The app allows users to explore movies, view details such as ratings, genres, and durations, and conveniently select showtimes and seats. With integrated secure payment options and smooth ticket management, CinemaPlex provides a modern and efficient cinema booking experience.",
+
+  "banner": "/flutter-apps/cinemaplex/banner.png",
+
+  "smallDescription":
+    "CinemaPlex is a modern ticket booking app for cinemas with seat selection, showtime booking, and integrated payments.",
+
+  "images": [
+    { "src": "/flutter-apps/cinemaplex/image1.png" },
+    { "src": "/flutter-apps/cinemaplex/image2.png" },
+    { "src": "/flutter-apps/cinemaplex/image3.png" },
+    { "src": "/flutter-apps/cinemaplex/image4.png" },
+    { "src": "/flutter-apps/cinemaplex/image5.png" },
+  ],
+
+  "techStack": [
+    { "name": "Flutter", "color": "#02569B" },
+    { "name": "Firebase", "color": "#FF6F00" },
+    { "name": "GetX State-management", "color": "#7E57C2" },
+    { "name": "Stripe Payment Gateway", "color": "#15be61ff" },
+    { "name": "Cloud Firestore", "color": "#039BE5" }
+  ]
+    },
+
+   {
+  "features": [
+    "Role based Authentication",
+    "Real-time bike tracking",
+    "Parking areas & zone management",
+    "Lock & unlock functionality",
+    "Payment integration",
+    "Ride history & usage analytics"
+  ],
+
+  "slug": "Volt",
+  "title": "Volt – Electric Bikes Tracking Application",
+  "year": "Feb 2025 - April 2025",
+  "type": "flutter",
+  "logo": "/flutter-apps/volt/logo.png",
+  "description":
+    "Volt is a Flutter-based application designed to track electric bikes in the city. It allows users to discover and unlock nearby e-bikes, manage parking areas, and monitor zones with real-time movement updates. With features like secure payments, lock/unlock functionality, and ride history, Volt provides a seamless and modern solution for urban micro-mobility management.",
+
+  "banner": "/flutter-apps/volt/banner.png",
+
+  "smallDescription":
+    "Volt is a smart e-bike tracking and management app with real-time monitoring, payments, and lock/unlock functionality.",
+
+  "images": [
+    { "src": "/flutter-apps/volt/image1.png" },
+    { "src": "/flutter-apps/volt/image2.png" },
+    { "src": "/flutter-apps/volt/image3.png" },
+    { "src": "/flutter-apps/volt/image4.png" },
+  ],
+
+  "techStack": [
+    { "name": "Flutter", "color": "#02569B" },
+    { "name": "Firebase", "color": "#FF6F00" },
+    { "name": "GetX State-management", "color": "#7E57C2" },
+    { "name": "Google Maps API", "color": "#4285F4" },
+    { "name": "Stripe Payment Gateway", "color": "#15be61ff" }
+  ]
+    },
+
+   {
+  "features": [
+    "Role based Authentication",
+    "AI-powered virtual try-on",
+    "E-commerce shopping features",
+    "Product catalog & categories",
+    "Cart & checkout system",
+    "Profile & order history management"
+  ],
+
+  "slug": "PerfectFit",
+  "title": "PerfectFit – AI based Virtual Try-On Application",
+  "year": "March 2025 - May 2025",
+  "type": "flutter",
+  "logo": "/flutter-apps/perfectfit/logo.png",
+  "description":
+    "PerfectFit is a Flutter-based application integrated with AI models to allow customers to virtually try on clothes before purchasing. Along with AI-powered try-on, it includes full e-commerce functionality such as product catalog, cart, secure checkout, and profile management. PerfectFit enhances online shopping by giving users a realistic preview of how clothes will look on them, improving confidence in online purchases.",
+
+  "banner": "/flutter-apps/perfectfit/banner.png",
+
+  "smallDescription":
+    "PerfectFit lets users virtually try clothes using AI before buying, combined with full e-commerce shopping features.",
+
+  "images": [
+    { "src": "/flutter-apps/perfectfit/image1.png" },
+    { "src": "/flutter-apps/perfectfit/image2.png" },
+    { "src": "/flutter-apps/perfectfit/image3.png" },
+    { "src": "/flutter-apps/perfectfit/image4.png" },
+    { "src": "/flutter-apps/perfectfit/image5.png" },
+  ],
+
+  "techStack": [
+    { "name": "Flutter", "color": "#02569B" },
+    { "name": "Firebase", "color": "#FF6F00" },
+    { "name": "GetX State-management", "color": "#7E57C2" },
+    { "name": "AI Model Integration", "color": "#00C853" },
+    { "name": "Stripe Payment Gateway", "color": "#15be61ff" }
+  ]
+}
+
+
+
+
+
+
   ];
