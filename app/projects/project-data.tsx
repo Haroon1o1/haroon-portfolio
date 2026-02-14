@@ -417,7 +417,47 @@ features: [
     { "name": "AI Model Integration", "color": "#00C853" },
     { "name": "Stripe Payment Gateway", "color": "#15be61ff" }
   ]
-}
+    },
+
+
+
+   {
+  "features": [
+    "Ai based call handling and management",
+    "Real-time call transcription",
+    "Meeting scheduling & calendar integration",
+    "email follow-up generation",
+    "Ai based student consultation and query handling",
+  ],
+
+  "slug": "Vapi-student-assistant",
+  "title": "Student Assistant – Ai based call handling",
+  "year": "Dec 2025 - January 2026",
+  "type": "n8n",
+  "logo": "/n8n-photos/student-appointment/logo.jpg",
+  "description":
+    "Volt is a Flutter-based application designed to track electric bikes in the city. It allows users to discover and unlock nearby e-bikes, manage parking areas, and monitor zones with real-time movement updates. With features like secure payments, lock/unlock functionality, and ride history, Volt provides a seamless and modern solution for urban micro-mobility management.",
+
+  "banner": "/n8n-photos/student-appointment/1.png",
+
+  "smallDescription":
+    "Voice AI system that automates student appointment scheduling through intelligent call handling and automated email follow-ups.",
+
+  "images": [
+    { "src": "/n8n-photos/student-appointment/2.png" },
+    { "src": "/n8n-photos/student-appointment/3.png" },
+  ],
+
+  "techStack": [
+    { "name": "n8n", "color": "#02569B" },
+    { "name": "VAPI", "color": "#FF6F00" },
+    { "name": "Google Calender", "color": "#7E57C2" },
+    { "name": "Email", "color": "#4285F4" },
+    { "name": "Google Sheets", "color": "#15be61ff" }
+  ]
+    },
+
+
 
 
 
