@@ -52,7 +52,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.className}`}>
+    <html
+      lang="en"
+      className={inter.className}
+      suppressHydrationWarning // ✅ Add this
+    >
       <head>
         <link
           rel="alternate"
